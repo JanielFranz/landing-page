@@ -160,3 +160,26 @@ button:hover::before {
     margin-left: 12rem;
     margin-right: 12rem;
 }
+
+.img {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.images-team-members{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member-encapsulation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
