@@ -134,3 +134,29 @@ button:hover::before {
     height: auto;
     object-fit: cover;
 }
+
+.team-members-div{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-team-members{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-team-members h1{
+    margin-bottom: 1rem;
+    font-size: 26px;
+    color: #333;
+}
+
+.text-team-members p {
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
