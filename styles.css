@@ -140,6 +140,7 @@ button:hover::before {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .text-team-members{
@@ -167,7 +168,7 @@ button:hover::before {
     width: 130px;
     height: 130px;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 30px;
     position: relative;
 
 }
@@ -183,3 +184,56 @@ button:hover::before {
     align-items: center;
     justify-content: center;
 }
+
+/*psymed*/
+.psymed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.Text {
+    max-width: 50%;
+    margin-right: auto; /* Auto margen para centrar el contenedor */
+    margin-left: auto; /* Auto margen para centrar el contenedor */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.Text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #091133;
+}
+
+.Text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.imagen-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px; /* Ajusta este valor para cambiar el espacio entre las imágenes */
+    width: 40%; /* Ajusta el ancho del contenedor de imágenes */
+    margin-left: 20px; /* Ajusta este valor para controlar el espacio entre el texto y las imágenes */
+
+}
+
+.imagen-grid div {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.imagen-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
