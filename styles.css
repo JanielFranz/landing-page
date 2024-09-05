@@ -321,3 +321,23 @@ box-sizing: border-box;
     transition: transform 0.3s ease;
 }
 
+.plan ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+}
+
+.plan ul li::before {
+    content: '\2713';
+    color: #2ecc71;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    line-height: 1;
+}
+
+
