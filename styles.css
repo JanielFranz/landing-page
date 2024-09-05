@@ -24,6 +24,10 @@ body {
     justify-items: auto;
 }
 
+.nav-button-magic-app{
+    margin-left: 10px;
+}
+
 .navbar .center {
     flex-grow: 1;
     justify-content: center;
@@ -39,6 +43,9 @@ body {
     margin-left: 10px;
 }
 
+.center{
+    margin-left: 3rem;
+}
 .bold-large-text {
     font-size: 24px;
     font-weight: bold;
