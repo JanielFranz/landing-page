@@ -332,7 +332,7 @@ box-sizing: border-box;
 
 .plan ul li::before {
     content: '\2713';
-    color: #2ecc71;
+    color: #091133;
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -365,7 +365,7 @@ box-sizing: border-box;
 .plan a.btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2ecc71;
+    background-color: #091133;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
