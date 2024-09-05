@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #091133;
+    background-color: black;
     padding: 10px 20px;
     color: white;
 }
@@ -107,12 +107,12 @@ button:hover::before {
     text-align: left;
     display:flex;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: white;
 
 }
 .banner-text h1 {
     font-size: 36px;
-    color: #333;
+    color: skyblue;
 }
 .banner-text p {
     margin-left: 1rem;
@@ -135,7 +135,8 @@ button:hover::before {
 }
 
 .team-members-div{
-    background-color: whitesmoke;
+    margin-top: 3rem;
+    background-color: #F5F2ED;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -150,7 +151,7 @@ button:hover::before {
 .text-team-members h1{
     margin-bottom: 1rem;
     font-size: 26px;
-    color: #333;
+    color: skyblue;
 }
 
 .text-team-members p {
@@ -188,7 +189,7 @@ button:hover::before {
     justify-content: space-between;
     padding: 80px;
 
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .Text {
@@ -201,7 +202,7 @@ button:hover::before {
 .Text h2 {
     font-size: 28px;
     margin-bottom: 10px;
-    color: #091133;
+    color: skyblue;
 }
 
 .Text p {
@@ -239,8 +240,8 @@ button:hover::before {
     width: 100%;
     height: 700px;
 
-    background-color: #091133;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .banner-info-01-left {
@@ -258,6 +259,11 @@ box-sizing: border-box;
     justify-content: space-evenly;
     align-items: center;
     width: 50%;
+    color: #666
+}
+
+.banner-info-01 h1 {
+    color: skyblue;
 }
 
 .banner-info-01-right img {
@@ -270,8 +276,12 @@ box-sizing: border-box;
     display: flex;
     width: 100%;
     height: 600px;
-    background-color: #091133;
-    color: white;
+    background-color: white;
+    color: #666;
+}
+
+.banner-info-02 h1 {
+    color: skyblue;
 }
 
 .banner-info-02-left {
@@ -302,9 +312,18 @@ box-sizing: border-box;
 
 /*pricing plans section*/
 .pricing-plans{
+    margin-top: 2rem;
     text-align: center;
     padding: 50px;
-    background-color: whitesmoke;
+    background-color: #F5F2ED;
+}
+
+.pricing-plans p {
+    color: #666;
+}
+
+.pricing-plans h2 {
+    color: skyblue;
 }
 
 .plans-container{
@@ -379,13 +398,17 @@ box-sizing: border-box;
 }
 .about-us-section {
     text-align: center;
-    margin: 20px 0;
+    margin-top: 3rem;
+    background-color: #F5F2ED;
+    color: skyblue;
 }
 .about-the-product-section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     padding: 5px;
     text-align: center;
-    margin: 20px 0;
-    background-color: whitesmoke;
+    background-color: #F5F2ED;
+    color: skyblue;
 }
 .video-container {
     position: relative;
@@ -410,7 +433,7 @@ box-sizing: border-box;
 
 /* Footer Styles */
 .footer {
-    background-color: #001f3f; /* Dark navy background */
+    background-color: black; /* Dark navy background */
     color: white;
     padding: 20px;
     font-size: 14px;
