@@ -300,6 +300,7 @@ box-sizing: border-box;
     height: 100%;
 }
 
+/*pricing plans section*/
 .pricing-plans{
     text-align: center;
     padding: 50px;
@@ -340,4 +341,38 @@ box-sizing: border-box;
     line-height: 1;
 }
 
+.plan:hover {
+    transform: scale(1.05);
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.plan h5{
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.plan a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.plan a.btn:hover {
+    background-color: #27ae60;
+}
 
