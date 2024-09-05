@@ -1,0 +1,218 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsyMed</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="main.js" defer></script> <!-- Incluir el archivo JS -->
+</head>
+<body>
+<div class="navbar">
+    <div class="left">
+        <span class="bold-large-text">PsyMed</span>
+        <img src="./assets/images/logo.webp" alt="Logo" width="60" height="60">
+    </div>
+    <div class="center">
+        <label class="nav-link" data-section="home-section">Inicio</label>
+        <label class="nav-link" data-section="about-section">Acerca de</label>
+        <label class="nav-link" data-section="contact-section">Contacto</label>
+    </div>
+    <div class="right">
+        <button class="nav-button-magic" data-section="contact-section" onclick="window.location.href='./index.html'">
+            ENG
+        </button>
+        <button class="nav-button-magic-app" data-section="contact-section">
+            Comenzar
+        </button>
+    </div>
+</div>
+<div id="home-section" class="main-banner">
+    <div class="banner-text">
+        <img src="./assets/images/logo.webp" alt="Imagen izquierda" class="left-image" height="100px">
+        <h1 class="h1-banner">¡Bienvenido a PsyMed!</h1>
+        <p>La WebApp es una herramienta diseñada para profesionales de la salud mental que
+            facilita la gestión de citas, el registro de datos y el seguimiento
+            de la historia clínica de los pacientes. Con un sistema intuitivo,
+            permite organizar toda la información relevante en un solo lugar,
+            mejorando la eficiencia y asegurando una atención personalizada y segura.</p>
+        <div class="buttons">
+            <button class="banner-button" data-section="contact-section">Contacto</button>
+            <button class="banner-button" data-section="about-section">Acerca del equipo</button>
+        </div>
+    </div>
+    <div class="banner-image">
+        <img src="./assets/images/banner-image-2.jpg" alt="Imagen del banner">
+    </div>
+</div>
+
+<div class="psymed">
+    <div class="Text">
+        <h2>¿Qué es Psymed?</h2>
+        <p> PsyMed es una aplicación innovadora diseñada para transformar la forma en que los profesionales de la salud mental gestionan su práctica. Ofrecemos una solución integral que permite organizar citas, registrar datos esenciales y acceder a historiales médicos de manera simple y segura. Con PsyMed, puedes optimizar tu tiempo y mejorar la calidad de la atención que brindas a tus pacientes, todo a través de una plataforma intuitiva y fácil de usar. </p>
+    </div>
+
+    <div class="imagen-grid">
+        <div class="appointments"><img src="assets/images/citas.png" alt="gestión de citas"></div>
+        <div class="medical-record"><img src="assets/images/historialMedico.png" alt="gestión de historial médico"></div>
+        <div class="data-virtualization"><img src="assets/images/virtualizacion.png" alt="historiales médicos virtualizados"></div>
+        <div class="patients-care"><img src="assets/images/pacientes.png" alt="cuidado de pacientes"></div>
+    </div>
+</div>
+
+<div class="banner-info-01">
+    <div class="banner-info-01-left">
+        <h1>Optimiza tu práctica</h1>
+        <p class="center-text">Descubre cómo nuestra plataforma puede transformar tu práctica diaria. Específicamente
+            diseñada para profesionales de la salud mental, esta herramienta intuitiva te permite
+            gestionar citas, registrar datos clave y acceder a los historiales clínicos de tus pacientes
+            de manera rápida y segura. Con PsyMed, puedes optimizar tu tiempo, brindar una atención más personalizada
+            y eficiente, y centrarte en lo que realmente importa: el bienestar de tus pacientes.</p>
+    </div>
+    <div class="banner-info-01-right">
+        <img src="./assets/images/banner-info-image-01.jpg" alt="info 01">
+        <img src="./assets/images/banner-info-image-02.jpg" alt="info 02">
+    </div>
+</div>
+
+<div class="banner-info-02">
+    <div class="banner-info-02-left">
+        <img src="./assets/images/banner-info-image-03.jpg" alt="info 03">
+    </div>
+    <div class="banner-info-02-right">
+        <h1>Atención más cercana y personalizada</h1>
+        <p class="center-text">Con PsyMed, tus pacientes sentirán una atención más cercana y personalizada.
+            La aplicación te permite llevar un seguimiento detallado de su progreso, asegurando
+            que cada sesión esté perfectamente alineada con sus necesidades y objetivos. Al
+            optimizar la gestión de citas y el seguimiento de historiales clínicos, puedes dedicar
+            más tiempo a lo que realmente importa: escuchar, entender y ayudar a tus pacientes
+            a lograr un mejor bienestar mental.</p>
+    </div>
+</div>
+
+<section class="pricing-plans">
+    <h2>Precios y Planes </h2>
+    <p> Los planes están basados en la cantidad de pacientes </p>
+    <div class="plans-container">
+        <!-- Primer plan -->
+        <div class="plan">
+            <h3>Primer Plan</h3>
+            <h4>máximo de 10 pacientes por profesional</h4>
+            <h5> $10 al mes </h5>
+            <ul>
+                <li>10 pacientes para gestionar</li>
+                <li>Seguimiento de funciones biológicas</li>
+                <li>Seguimiento del estado emocional del paciente</li>
+            </ul>
+            <a href="#" class="btn">Elígelo</a>
+        </div>
+
+        <!-- Segundo plan -->
+        <div class="plan">
+            <h3>Segundo plan</h3>
+            <h4>máximo de 30 pacientes por profesional</h4>
+            <h5> $30 al mes</h5>
+            <ul>
+                <li>30 pacientes para gestionar</li>
+                <li>Seguimiento de funciones biológicas</li>
+                <li>Seguimiento del estado emocional del paciente</li>
+                <li>Grabación de sesiones</li>
+            </ul>
+            <a href="#" class="btn">Elígelo</a>
+        </div>
+        <!-- Plan final -->
+        <div class="plan">
+            <h3>Plan final</h3>
+            <h4>máximo de 100 pacientes por profesional</h4>
+            <h5> $100 al mes </h5>
+            <ul>
+                <li>100 pacientes para gestionar</li>
+                <li>Seguimiento de funciones biológicas</li>
+                <li>Seguimiento del estado emocional del paciente</li>
+                <li>Grabación de sesiones</li>
+            </ul>
+            <a href="#" class="btn">Elígelo</a>
+        </div>
+    </div>
+</section>
+
+<div id="about-section" class="team-members-div">
+    <div class="text-team-members">
+        <h1>Sobre Nosotros</h1>
+        <p>PsyMed es una startup formada por un grupo de estudiantes universitarios
+            comprometidos con la creación de una aplicación que facilite la gestión de la salud mental.
+            Nuestra misión es apoyar a los doctores en la gestión eficiente de citas,
+            el registro de datos y el seguimiento de las historias clínicas de los pacientes,
+            todo en una plataforma intuitiva y segura. Buscamos mejorar la calidad
+            de la atención y optimizar el trabajo de los profesionales de la salud mental.</p>
+    </div>
+    <div class="images-team-members" id="about-us">
+        <div class="member-encapsulation">
+            <img class="img" src="./assets/images/franz.jpg" alt="Imagen del miembro del equipo">
+            <p>Janiel Escalante B.</p>
+        </div>
+        <div class="member-encapsulation">
+            <img class="img" src="./assets/images/romina.jpg" alt="Imagen del miembro del equipo">
+            <p>Romina Maita</p>
+        </div>
+        <div class="member-encapsulation">
+            <img class="img" src="./assets/images/yisusxd.jpg" alt="Imagen del miembro del equipo">
+            <p>Anatoly</p>
+        </div>
+        <div class="member-encapsulation">
+            <img class="img" src="./assets/images/valentino.jpg" alt="Imagen del miembro del equipo">
+            <p>Valentino</p>
+        </div>
+        <div class="member-encapsulation">
+            <img class="img" src="./assets/images/sihuar.jpg" alt="Imagen del miembro del equipo">
+            <p>Sihuar</p>
+        </div>
+    </div>
+</div>
+<section class="about-us-section">
+    <h2>Video Sobre Nostros</h2>
+    <div class="video-container">
+        <iframe
+                src="https://www.youtube.com/"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+        </iframe>
+    </div>
+</section>
+<section class="about-the-product-section">
+    <h2>Video Acerca del Producto</h2>
+    <div class="video-container">
+        <iframe
+                src="https://www.youtube.com"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+        </iframe>
+    </div>
+</section>
+<footer class="footer" >
+    <div class="footer-content">
+        <span>© 2024 Closed Source</span>
+        <span>PsyMed</span>
+        <span>Email: OfficeMark@ClosedSource.com</span>
+    </div>
+
+    <!-- Links and icons in the same section -->
+    <div class="footer-bottom">
+        <div class="footer-links">
+            <a href="#" class="nav-link" data-section="home-section">Inicio</a>
+            <a href="#" class="nav-link" data-section="about-section">Acerca de</a>
+            <a href="#" class="nav-link" data-section="contact-section">Contacto</a>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="./assets/images/whatsapp.png" alt="WhatsApp"></a>
+            <a href="#"><img src="./assets/images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="./assets/images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./assets/images/x-twitter.png" alt="X"></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
