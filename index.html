@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PsyMed</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="main.js" defer></script> <!-- Include the JS file -->
 </head>
 <body>
 <div class="navbar">
@@ -13,28 +14,28 @@
         <img src="./assets/images/logo.webp" alt="Logo" width="60" height="60">
     </div>
     <div class="center">
-        <label>Home</label>
-        <label>About</label>
-        <label>Contact</label>
+        <label class="nav-link" data-section="home-section">Home</label>
+        <label class="nav-link" data-section="about-section">About</label>
+        <label class="nav-link" data-section="contact-section">Contact</label>
     </div>
     <div class="right">
-        <button class="nav-button-magic">
+        <button class="nav-button-magic" data-section="contact-section">
             Get started
         </button>
     </div>
 </div>
-<div class="main-banner">
+<div id="home-section" class="main-banner">
     <div class="banner-text">
         <img src="./assets/images/logo.webp" alt="Left Image" class="left-image" height="100px">
         <h1 class="h1-banner">Welcome to PsyMed!</h1>
         <p>The WebApp is a tool designed for mental health professionals that
             facilitates appointment management, data recording, and tracking
             of patients' clinical history. With an intuitive system,
-            t allows organizing all relevant information in one place,
+            it allows organizing all relevant information in one place,
             enhancing efficiency and ensuring personalized and secure care.</p>
         <div class="buttons">
-            <button class="banner-button">Contact</button>
-            <button class="banner-button">About the Team</button>
+            <button class="banner-button" data-section="contact-section">Contact</button>
+            <button class="banner-button" data-section="about-section">About the Team</button>
         </div>
     </div>
     <div class="banner-image">
@@ -132,7 +133,7 @@
         </div>
     </div>
 </section>
-<div class="team-members-div">
+<div id="about-section" class="team-members-div">
     <div class="text-team-members">
         <h1>About Us</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis tortor quis odio
@@ -188,7 +189,7 @@
         </iframe>
     </div>
 </section>
-<footer class="footer">
+<footer class="footer" >
     <div class="footer-content">
         <span>© 2024 Closed Source</span>
         <span>PsyMed</span>
@@ -198,9 +199,9 @@
     <!-- Links and icons in the same section -->
     <div class="footer-bottom">
         <div class="footer-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#" class="nav-link" data-section="home-section">Home</a>
+            <a href="#" class="nav-link" data-section="about-section">About</a>
+            <a href="#" class="nav-link" data-section="contact-section">Contact</a>
         </div>
         <div class="footer-social">
             <a href="#"><img src="./assets/images/whatsapp.png" alt="WhatsApp"></a>
