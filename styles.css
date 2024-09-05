@@ -192,6 +192,7 @@ button:hover::before {
     justify-content: space-between;
     padding: 20px;
     margin-top: 100px;
+    background-color: whitesmoke;
 }
 
 .Text {
@@ -304,7 +305,7 @@ box-sizing: border-box;
 .pricing-plans{
     text-align: center;
     padding: 50px;
-    background-color: #fff;
+    background-color: whitesmoke;
 }
 
 .plans-container{
@@ -365,7 +366,7 @@ box-sizing: border-box;
 .plan a.btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #091133;
+    background-color: skyblue;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -373,6 +374,7 @@ box-sizing: border-box;
 }
 
 .plan a.btn:hover {
-    background-color: #27ae60;
+    background: linear-gradient(45deg, skyblue, lightblue, skyblue, lightblue, skyblue, lightblue, skyblue, lightblue);
+
 }
 
